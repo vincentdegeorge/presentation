@@ -1,0 +1,123 @@
+body
+{
+    color: black; /*Le texte de la page sera noir*/
+}
+header
+{
+	font-family: verdana;
+	background-image: url("images/montagne.JPG");
+	width: 570px;
+	height: 300px;
+	margin-left: 30%;
+	box-shadow: 6px 6px 0px black;
+	border: 3px groove;
+	padding: 12px;
+	margin: 12px;
+	color: white;
+	text-align: center;
+}
+.menu ul{
+	list-style-type: none; /*supprime les puces*/
+	}
+
+.menu li{
+	display: inline;
+	text-align: center;
+	color: black;
+	font-variant: small-caps;
+	font-size: 12px;
+	border: 1px solid;
+	font-weight: bold;
+	margin: 2px;
+	}
+
+.portrait{
+	width: 400 px;
+	height: 280px;
+	}
+	
+.portrait li{
+	list-style-type: none;
+	}
+	
+section
+{
+	font-family: verdana;
+	width: 35%;
+	border: 3px double;
+	padding: 12px;
+	margin: 12px;
+	text-align: justify;
+}
+
+article
+{
+	width: 35%;
+	border: 3px dotted;
+	padding: 12px;
+	margin: 12px;
+	background-color: #A1D490;
+	text-align: left;
+}
+footer
+{
+	background-color: silver;
+	color: red;
+	padding : 12px;
+	margin: 12px
+}
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+	
+}
+p
+{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#conteneur1
+{
+	display: flex;
+}
+
+#conteneur2
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	height: 1700px;
+}
+
+.article{
+	align-self: flex-end;
+	}
+	
+.etude
+{
+	background-color: #A1D490;
+}
+.parcours
+{
+	background-color: #C390D4;
+}
+.loisirs
+{
+	background-color: #D4A190;
+}
+.reseaux
+{
+	background-color: #90C3D4;
+}
+.sites-web
+{
+	background-color: silver;
+}
+.motivation
+{
+	
+}
