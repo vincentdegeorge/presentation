@@ -43,7 +43,7 @@ header
 section
 {
 	font-family: verdana;
-	width: 35%;
+	width: 30%;
 	border: 3px double;
 	padding: 12px;
 	margin: 12px;
@@ -52,7 +52,7 @@ section
 
 article
 {
-	width: 35%;
+	width: 30%;
 	border: 3px dotted;
 	padding: 12px;
 	margin: 12px;
